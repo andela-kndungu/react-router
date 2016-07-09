@@ -1,8 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const App = () => {
   return (
-    <h1>Hello World</h1>
+    <div>
+      <h1>React Router Tutrorial</h1>
+      <ul>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/repos">Repos</Link></li>
+      </ul>
+    </div>
   );
 };
 
